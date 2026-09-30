@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de Vinicius Veloso de Moura. Desenvolvedor .NET, APIs REST, Clean Architecture e modernização de sistemas.">
+    <meta name="theme-color" content="#111513">
+    <title>Vinicius Veloso · Desenvolvedor .NET</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#principal">Pular para o conteúdo</a>
+    <header class="header"><a class="brand" href="#inicio" aria-label="Início">v<span>.</span>veloso<span class="brand-code"> / dev</span></a>
+      <nav aria-label="Navegação principal"><a href="#atuacao">Atuação</a><a href="#stack">Stack</a><a href="#trajetoria">Trajetória</a>
+      </nav>
+      <button class="theme-button" id="theme" aria-label="Ativar tema claro">◐</button><a class="header-contact" href="#contato">Vamos conversar <span>↗</span></a>
+    </header>
+    <main id="principal">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> C# · .NET · BACKEND</p>
+          <h1>Boas soluções<br>começam por uma<br><em>base sólida.</em></h1>
+          <p class="intro">Sou <strong>Vinicius Veloso</strong>, desenvolvedor .NET.<br>Transformo regras de negócio em APIs e sistemas<br class="desktop-break"> organizados, testáveis e preparados para evoluir.</p>
+          <div class="hero-actions"><a class="button primary" href="#atuacao">Explore minha atuação <span>↗</span></a><a class="text-link" href="https://github.com/viniveloso" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>São Paulo, SP</span><span>Backend & arquitetura</span><span>ADS · UNINOVE</span>
+          </div>
+        </div>
+        <div class="code-visual" aria-label="Ilustração de código C# representando meu perfil">
+          <div class="orbit orbit-one">
+          </div>
+          <div class="orbit orbit-two">
+          </div>
+          <span class="floating-label">C# / .NET 8</span>
+          <div class="code-window">
+            <div class="window-bar"><span class="dots">● ● ●</span><span>Developer.cs</span><span>C#</span>
+            </div>
+            <div class="code-body">
+              <div class="line-numbers" aria-hidden="true">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08<br>09<br>10<br>11<br>12
+              </div>
+              <pre><code><span class="purple">public class</span> <span class="green">Developer</span>
+{
+  <span class="purple">public string</span> Name =&gt;
+    <span class="yellow">"Vinicius Veloso"</span>;
+
+  <span class="purple">public string[]</span> Focus =&gt;
+  [
+    <span class="yellow">"Clean Architecture"</span>,
+    <span class="yellow">"APIs REST"</span>,
+    <span class="yellow">"Sistemas que evoluem"</span>
+  ];
+}</code></pre>
+            </div>
+            <div class="window-footer"><span><span class="status-dot"></span> Construindo com propósito</span><span>UTF-8</span>
+            </div>
+          </div>
+          <div class="architecture-badge"><span>↳</span>
+            <div><small>MINHA ABORDAGEM</small><strong>Clareza. Qualidade. Evolução.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tech-strip" aria-label="Principais tecnologias"><span>C#</span><span>.NET 8</span><span>ASP.NET Core</span><span>PostgreSQL</span><span>AWS</span><span>Clean Architecture</span>
+      </div>
+      <section id="atuacao" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / NA PRÁTICA</p>
+            <h2>Do legado à<br><em>próxima versão.</em></h2>
+          </div>
+          <p>Uma seleção de desafios profissionais.<br>Engenharia aplicada a necessidades reais.</p>
+        </div>
+        <div class="case-grid">
+          <article class="case">
+            <div class="case-top"><span>MODERNIZAÇÃO</span><span>01 ↗</span>
+            </div>
+            <div class="case-art migration" aria-hidden="true"><span>Node.js</span><i>→</i><span>.NET</span>
+            </div>
+            <h3>Evoluir sem interromper</h3>
+            <p>Participo da modernização de um sistema de gestão de escalas, migrando o backend de Node.js para C#/.NET, preservando contratos do frontend Vue.js e separando regras de negócio.</p>
+            <div class="tags"><span>Clean Architecture</span><span>Strangler Fig</span><span>PostgreSQL</span>
+            </div>
+            <details>
+              <summary>Explorar o desafio <span>+</span></summary>
+              <p>Engenharia reversa, filtros, paginação e payloads JSON/JSONB. Desenvolvimento de autorização por perfis (RBAC), auditoria resiliente e testes com xUnit e Moq, incluindo cenários de IDOR.</p>
+            </details>
+          </article>
+          <article class="case">
+            <div class="case-top"><span>INTEGRAÇÃO & CLOUD</span><span>02 ↗</span>
+            </div>
+            <div class="case-art cloud" aria-hidden="true"><span>S3</span><i>↔</i><span>λ</span><i>↔</i><span>SQS</span>
+            </div>
+            <h3>Dados em movimento</h3>
+            <p>Participei do desenvolvimento de um importador de dados, integrando informações em massa por APIs e desenvolvendo soluções AWS para automatizar processos.</p>
+            <div class="tags"><span>AWS Lambda</span><span>S3 / SQS</span><span>APIs REST</span>
+            </div>
+            <details>
+              <summary>Explorar o desafio <span>+</span></summary>
+              <p>Manutenção de APIs .NET Core/C# que processavam milhares de requisições por dia. Integração e persistência em bancos relacionais e não relacionais, com entregas em equipe utilizando Scrum.</p>
+            </details>
+          </article>
+          <article class="case">
+            <div class="case-top"><span>QUALIDADE DE SOFTWARE</span><span>03 ↗</span>
+            </div>
+            <div class="case-art quality" aria-hidden="true"><span>✓</span>
+              <div>business rules<br>API contracts<br>resilience
+              </div>
+            </div>
+            <h3>Código feito para durar</h3>
+            <p>Desenvolvi e mantive aplicações backend com C# e .NET Core, evoluindo APIs, regras de negócio e acesso a dados com foco em qualidade e manutenção.</p>
+            <div class="tags"><span>SOLID</span><span>Entity Framework</span><span>LINQ</span>
+            </div>
+            <details>
+              <summary>Explorar o desafio <span>+</span></summary>
+              <p>Validações de dados, tratamento de exceções e padronização de respostas HTTP. Correção de bugs, refatoração e organização em camadas para melhorar a manutenção das aplicações.</p>
+            </details>
+          </article>
+        </div>
+        <p class="section-note">Os casos descrevem minha atuação profissional. Código corporativo não é disponibilizado neste portfólio.</p>
+      </section>
+      <section id="stack" class="section stack-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / FERRAMENTAS</p>
+            <h2>Minha <em>stack.</em></h2>
+          </div>
+          <p>A tecnologia é o meio.<br>A solução é o que importa.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar competências"><button class="active" data-filter="all" aria-pressed="true">Todas</button><button data-filter="backend" aria-pressed="false">Backend</button><button data-filter="architecture" aria-pressed="false">Arquitetura & testes</button><button data-filter="cloud" aria-pressed="false">Cloud & dados</button><button data-filter="frontend" aria-pressed="false">Frontend & ferramentas</button>
+        </div>
+        <div id="skills" class="skills" aria-live="polite">
+        </div>
+      </section>
+      <section id="trajetoria" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / PERCURSO</p>
+            <h2>Experiência que<br><em>vira repertório.</em></h2>
+          </div>
+          <p>Da primeira oportunidade aos desafios<br>de modernização de sistemas corporativos.</p>
+        </div>
+        <div class="timeline">
+          <article>
+            <div class="period">MAI 2026 — ATUAL<span class="current">Atuação atual</span>
+            </div>
+            <div>
+              <h3>Mirante Tecnologia <span>↗ Petrobras</span></h3>
+              <h4>Desenvolvedor .NET Jr</h4>
+              <p>Modernização do sistema de gestão de escalas Scala. C#/.NET, Clean Architecture, PostgreSQL, segurança e testes automatizados.</p>
+            </div>
+          </article>
+          <article>
+            <div class="period">JAN 2025 — FEV 2026
+            </div>
+            <div>
+              <h3>Konia Tecnologia</h3>
+              <h4>Desenvolvedor .NET Jr</h4>
+              <p>Desenvolvimento de APIs e aplicações backend, regras de negócio, Entity Framework e melhoria contínua do código.</p>
+            </div>
+          </article>
+          <article>
+            <div class="period">OUT 2022 — JUN 2024
+            </div>
+            <div>
+              <h3>SACAPP Tecnologia <span>Negocie Online</span></h3>
+              <h4>Estagiário → Desenvolvedor .NET Jr</h4>
+              <p>Promoção em novembro de 2023. APIs em produção, integração de dados e automação na AWS.</p>
+              <div class="achievement">✦ 1º lugar no Hackathon 2023 · IA aplicada a chatbots
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="education">
+          <div><small>FORMAÇÃO</small>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>Universidade Nove de Julho · Concluído em 2025</p>
+          </div>
+          <div><small>IDIOMAS</small>
+            <h3>Inglês intermediário</h3>
+            <p>Leitura técnica e documentação</p>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="contact section">
+        <p class="eyebrow">04 / PRÓXIMA CONEXÃO</p>
+        <h2>Vamos construir<br><em>algo que importa?</em></h2>
+        <p>Vamos conversar sobre desenvolvimento .NET,<br>desafios de backend e novas oportunidades.</p>
+        <div class="contact-actions"><a class="button primary" href="https://wa.me/5511981886858" target="_blank" rel="noopener noreferrer">WhatsApp <span>↗</span></a><a class="button secondary" href="mailto:viniciusveloso01@gmail.com">Enviar e-mail <span>↗</span></a>
+        </div>
+        <div class="socials"><a href="https://github.com/viniveloso" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/velosovinicius/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="assets/curriculo.pdf" target="_blank" rel="noopener noreferrer">Currículo PDF ↗</a>
+        </div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#inicio">v<span>.</span>veloso</a><span>© <span id="year">2026</span> Vinicius Veloso de Moura</span><a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
